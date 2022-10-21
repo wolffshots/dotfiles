@@ -11,6 +11,7 @@
 - $`git clone --bare git@github.com:wolffshots/.dotfiles.git`
 - $`GIT_DIR=~/.dotfiles.git git fetch origin main:main` - to update repo
 - $`GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ checkout main` to checkout the files to your home, use `-f` to overwrite changes
+- $`GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ pull` to pull changes from then on
 
 ## fish styling
 - $`http --body https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
