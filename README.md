@@ -7,6 +7,11 @@
 ## git
 - $`git config --global user.name jadon && git config --global user.email 16850875+wolffshots@users.noreply.github.com && git config --global init.defaultBranch main`
 
+## this repo
+- $`git clone --bare git@github.com:wolffshots/.dotfiles.git`
+- $`GIT_DIR=~/.dotfiles.git git fetch origin main:main` - to update repo
+- $`GIT_DIR=~/.dotfiles.git GIT_WORKING_DIR=~/ git checkout origin main` to checkout the files to your home, use `-f` to overwrite changes
+
 ## fish styling
 - $`http --body https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
 
