@@ -58,13 +58,16 @@ set splitbelow
 set splitright
 
 " set the chars to show with list
-set listchars=eol:¬
-set listchars+=space:·
-set listchars+=trail:·
-set listchars+=nbsp:◇
-set listchars+=tab:→-
-set listchars+=extends:▸
-set listchars+=precedes:◂
+
+set listchars=tab:..,trail:_,extends:>,precedes:<,nbsp:~
+set showbreak=\\ " [bonus]
+" set listchars=eol:¬
+" set listchars+=space:·
+" set listchars+=trail:·
+" set listchars+=nbsp:◇
+" set listchars+=tab:→-
+" set listchars+=extends:▸
+" set listchars+=precedes:◂
 " set showbreak=↪\
 
 " allow backspacing over autoindent, line breaks, start of insert
