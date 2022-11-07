@@ -65,7 +65,7 @@ set listchars+=nbsp:◇
 set listchars+=tab:→-
 set listchars+=extends:▸
 set listchars+=precedes:◂
-set showbreak=↪\
+" set showbreak=↪\
 
 " allow backspacing over autoindent, line breaks, start of insert
 set backspace=indent,eol,start
@@ -79,7 +79,7 @@ set foldmethod=indent
 set mouse=a
 
 " colours
-colorscheme elflord
+" colorscheme elflord
 
 " MAPPINGS --------------------------------------------------------------- {{{
 
