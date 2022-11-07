@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " turn off vi compat
 set nocompatible
 fixdel
