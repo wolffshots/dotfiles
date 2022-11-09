@@ -7,6 +7,7 @@ fixdel
 syntax on
 " show line numbers
 set number
+set relativenumber
 set showtabline=2
 set tabpagemax=15
 
