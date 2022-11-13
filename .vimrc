@@ -189,7 +189,8 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-commentary'
 Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
-
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+            
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
