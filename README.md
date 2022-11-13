@@ -18,9 +18,14 @@
 - `http --body https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
 - `sudo chsh -s /usr/bin/fish $USER`
 
-## nvm
-- `http --body https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
-- `omf install nvm && nvm install --lts`
+## asdf
+- `git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2` - check branch
+- `mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions`
+
+## golang
+- `asdf plugin-add golang https://github.com/kennyp/asdf-golang.git`
+- `asdf install golang latest`
+- `asdf reshim golang` - after using `go get`
 
 ## vim
 - `curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
