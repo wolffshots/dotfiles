@@ -1,7 +1,7 @@
 # dot files and general setup
 
 ## pre-reqs
-- #`apt-add-repository ppa:fish-shell/release-3 && sudo apt update && sudo apt install git fish httpie python3 python-is-python3 pip`
+- #`sudo apt-add-repository ppa:fish-shell/release-3 && sudo apt update && sudo apt install git fish httpie python3 python-is-python3 pip`
 - $`pip install pynvim`
 
 ## git
