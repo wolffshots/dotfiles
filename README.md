@@ -2,7 +2,7 @@
 
 ## pre-reqs
 - `sudo apt install software-properties-common` - only required on raspbian
-- `sudo apt-add-repository ppa:fish-shell/release-3 && sudo apt update && sudo apt install git fish httpie python3 python-is-python3 pip && sudo apt upgrade`
+- `sudo apt-add-repository ppa:fish-shell/release-3 && sudo apt update && sudo apt install git fish httpie python3 python-is-python3 pip vim && sudo apt upgrade`
 - `pip install pynvim`
 
 ## git
