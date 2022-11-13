@@ -6,7 +6,7 @@
 - `pip install pynvim`
 
 ## git
-- `git config --global user.name jadon && git config --global user.email 16850875+wolffshots@users.noreply.github.com && git config --global init.defaultBranch main && git config pull.rebase true`
+- `git config --global user.name jadon && git config --global user.email 16850875+wolffshots@users.noreply.github.com && git config --global init.defaultBranch main && git config --global pull.rebase true`
 
 ## this repo
 - `git clone --bare git@github.com:wolffshots/.dotfiles.git` or `git clone --bare https://github.com/wolffshots/.dotfiles.git`
