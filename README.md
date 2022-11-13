@@ -9,7 +9,7 @@
 - `git config --global user.name jadon && git config --global user.email 16850875+wolffshots@users.noreply.github.com && git config --global init.defaultBranch main`
 
 ## this repo
-- `git clone --bare git@github.com:wolffshots/.dotfiles.git`
+- `git clone --bare git@github.com:wolffshots/.dotfiles.git` or `git clone --bare https://github.com/wolffshots/.dotfiles.git`
 - `GIT_DIR=~/.dotfiles.git git fetch origin main:main` - to update repo
 - `GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ checkout main` to checkout the files to your home, use `-f` to overwrite changes
 - `GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ pull` to pull changes from then on
