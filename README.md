@@ -14,8 +14,9 @@
 - `GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ checkout main` to checkout the files to your home, use `-f` to overwrite changes
 - `GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ pull` to pull changes from then on
 
-## fish styling
+## fish
 - `http --body https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish`
+- `sudo chsh -s /usr/bin/fish $USER`
 
 ## nvm
 - `http --body https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
