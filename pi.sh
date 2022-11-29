@@ -7,12 +7,12 @@ git config --global user.name $USER
 git config --global user.email 16850875+wolffshots@users.noreply.github.com 
 git config --global init.defaultBranch main 
 git config --global pull.merge true 
-git clone --bare https://github.com/wolffshots/.dotfiles.git 
+git clone --bare --depth 1 https://github.com/wolffshots/.dotfiles.git 
 GIT_DIR=~/.dotfiles.git git fetch origin main:main
 GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ checkout main 
 http --body https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish 
 sudo chsh -s /usr/bin/fish $USER
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2 
+git clone --depth 1 https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2 
 mkdir -p ~/.config/fish/completions
 ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions 
 asdf plugin-add golang https://github.com/kennyp/asdf-golang.git 
