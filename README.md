@@ -19,7 +19,7 @@
 - `sudo chsh -s /usr/bin/fish $USER`
 
 ## asdf
-- `git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2` - check branch
+- `git clone --depth 1 https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2` - check branch
 - `mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions`
 
 ## golang
