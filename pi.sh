@@ -6,7 +6,7 @@ pip install pynvim
 git config --global user.name $USER 
 git config --global user.email 16850875+wolffshots@users.noreply.github.com 
 git config --global init.defaultBranch main 
-git config --global pull.merge true 
+git config --global pull.rebase false
 git clone --bare --depth 1 https://github.com/wolffshots/.dotfiles.git 
 GIT_DIR=~/.dotfiles.git git fetch origin main:main
 GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ checkout main 
