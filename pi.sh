@@ -13,7 +13,8 @@ GIT_DIR=~/.dotfiles.git/ git --work-tree ~/ checkout main
 http --body https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish 
 sudo chsh -s /usr/bin/fish $USER
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2 
-mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions 
+mkdir -p ~/.config/fish/completions
+ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions 
 asdf plugin-add golang https://github.com/kennyp/asdf-golang.git 
 asdf install golang latest && asdf reshim golang 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
