@@ -207,4 +207,9 @@ require("lazy").setup({
                 --      require("config.trouble")
                 -- end,
         },
+        {
+            "junegunn/fzf",
+            dir = "~/.fzf",
+            build = "./install --all",
+        },
 })
