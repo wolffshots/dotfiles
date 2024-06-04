@@ -1,5 +1,11 @@
 # dot files and general setup
 
+```shell
+cd ~/documents/
+git clone git@github.com:wolffshots/dotfiles.git 
+ln -sf ~/documents/dotfiles/.config/nvim ~/.config
+```
+
 ## pre-reqs
 - TODO
 
