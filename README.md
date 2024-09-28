@@ -54,6 +54,12 @@ asdf global golang latest
 asdf reshim golang` # after using `go get`
 ```
 
+## tmux
+
+```shell
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## extra
 ### rasbpi
 - [zram-config](https://github.com/ecdye/zram-config) 
