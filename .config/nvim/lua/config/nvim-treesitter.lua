@@ -21,9 +21,13 @@ configs.setup({
 		"gitignore",
 		"gomod",
 		"go",
+        "regex",
 		"comment", -- for tags like TODO:, FIXME(user)
 		"diff", -- git diff
+        "bash",
+        "markdown",
 		"markdown_inline",
+        -- vim, regex, lua, bash, markdown and markdown_inline are required for noice.nvim
 	},
 	-- Install parsers synchronously (only applied to `ensure_installed`)
 	sync_install = false,
